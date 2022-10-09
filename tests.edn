@@ -1,0 +1,4 @@
+#kaocha/v1
+    {:reporter   kaocha.report/dots
+     :plugins    [:kaocha.plugin/profiling]
+     :fail-fast? false}
